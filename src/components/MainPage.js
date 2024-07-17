@@ -20,7 +20,7 @@ function MainPage({ logout }) {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        "https://takenotes123backend.onrender.com/api/notes",
+        "https://notes-app-backend-3y2a.onrender.com/api/notes",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -41,7 +41,7 @@ function MainPage({ logout }) {
       try {
         const token = localStorage.getItem("token");
         const response = await axios.post(
-          "https://takenotes123backend.onrender.com/api/notes",
+          "https://notes-app-backend-3y2a.onrender.com/api/notes",
           { text: newNote },
           {
             headers: { Authorization: `Bearer ${token}` },
@@ -60,7 +60,7 @@ function MainPage({ logout }) {
     try {
       const token = localStorage.getItem("token");
       const response = await axios.put(
-        `https://takenotes123backend.onrender.com/api/notes/${id}`,
+        `https://notes-app-backend-3y2a.onrender.com/api/notes/${id}`,
         { text },
         {
           headers: { Authorization: `Bearer ${token}` },
@@ -77,7 +77,7 @@ function MainPage({ logout }) {
     try {
       const token = localStorage.getItem("token");
       await axios.delete(
-        `https://takenotes123backend.onrender.com/api/notes/${id}`,
+        `https://notes-app-backend-3y2a.onrender.com/api/notes/${id}`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
