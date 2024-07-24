@@ -354,10 +354,11 @@ body {
     align-items: center;
     padding: 30px 0;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .sidebar-bottom{
-    margin-top: 170px;
+    margin-top: 140px;
 }
 
 .logo {
@@ -685,4 +686,5 @@ body {
   .notes-intro {
     color: var(--intro-color);
   }
+
   
