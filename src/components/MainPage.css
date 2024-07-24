@@ -687,4 +687,10 @@ body {
     color: var(--intro-color);
   }
 
+  .logout-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
   

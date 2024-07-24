@@ -480,7 +480,7 @@ function MainPage({ logout }) {
               🖋️
             </button>
             <button className="menu-item" title="Logout" onClick={logout}>
-            🔚
+              <img src="logout.png" alt="Logout" className="logout-icon" />
             </button>
           </nav>
         </div>
