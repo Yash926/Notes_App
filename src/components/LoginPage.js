@@ -34,12 +34,12 @@ function LoginPage({ setLoading }) {
     <div className="login-container">
       <div className="login-card">
         <div className="left-section">
-          <img src="Man.jpg" alt="Man working on laptop" className="illustration" />
-          <h1>Keep life simple</h1>
-          <p>Store all your notes in a simple and intuitive app that helps you enjoy what is most important in life.</p>
+          <img src="images.png" alt="logo" className="illustration" />
+          <h1>Simplify your thoughts!</h1>
+          <p>Welcome to NotesBank! Effortlessly capture, organize, and master your ideas with our sleek, and powerful note-taking tools.</p>
         </div>
         <div className="right-section">
-          <img src="Logo.png" alt="Notes.me" className="logo" />
+        <h2 className="website-title">NotesBank</h2>
           <form onSubmit={handleSubmit}>
             <div className="input-group">
               <input
